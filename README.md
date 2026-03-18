@@ -52,7 +52,7 @@ Completed components:
 
 - RMF lifecycle workflow model
 - ATO artifact lifecycle modeling
-- Structured POA&M object schema
+- Structured POA&M object schema (see example JSON)
 - Control mapping model (NIST SP 800-53 aligned)
 - Zero Trust governance alignment model
 - High-level architecture documentation
@@ -121,6 +121,25 @@ Governance alignment across:
 See the high-level architecture diagram:
 
 - [Architecture Overview](docs/architecture.md)
+
+---
+
+## Example: Structured POA&M Data Model
+
+The OpenGRC Framework models Plan of Action & Milestones (POA&M) artifacts as structured, machine-readable objects instead of static documents.
+
+This enables:
+
+- Automated vulnerability tracking and remediation workflows
+- Integration with security tools (e.g., vulnerability scanners, SIEM)
+- Control-to-evidence traceability aligned with NIST RMF
+- Continuous authorization and monitoring capabilities
+
+Sample POA&M object:
+
+- [Sample POA&M JSON](examples/poam/sample_poam.json)
+
+This example demonstrates how compliance artifacts can be represented as interconnected data objects to support automation and lifecycle transparency.
 
 ---
 
